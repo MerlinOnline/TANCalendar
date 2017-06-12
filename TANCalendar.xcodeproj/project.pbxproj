@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1456B0371EEE99C500E4BFDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456B0361EEE99C500E4BFDF /* main.m */; };
+		1456B03A1EEE99C500E4BFDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456B0391EEE99C500E4BFDF /* AppDelegate.m */; };
+		1456B03D1EEE99C500E4BFDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456B03C1EEE99C500E4BFDF /* ViewController.m */; };
+		1456B0401EEE99C500E4BFDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1456B03E1EEE99C500E4BFDF /* Main.storyboard */; };
+		1456B0421EEE99C500E4BFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1456B0411EEE99C500E4BFDF /* Assets.xcassets */; };
+		1456B0451EEE99C500E4BFDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1456B0431EEE99C500E4BFDF /* LaunchScreen.storyboard */; };
+		1456B0501EEE99C500E4BFDF /* TANCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456B04F1EEE99C500E4BFDF /* TANCalendarTests.m */; };
+		1456B05B1EEE99C500E4BFDF /* TANCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456B05A1EEE99C500E4BFDF /* TANCalendarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1456B04C1EEE99C500E4BFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1456B02A1EEE99C500E4BFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1456B0311EEE99C500E4BFDF;
+			remoteInfo = TANCalendar;
+		};
+		1456B0571EEE99C500E4BFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1456B02A1EEE99C500E4BFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1456B0311EEE99C500E4BFDF;
+			remoteInfo = TANCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1456B0321EEE99C500E4BFDF /* TANCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TANCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1456B0361EEE99C500E4BFDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1456B0381EEE99C500E4BFDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1456B0391EEE99C500E4BFDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1456B03B1EEE99C500E4BFDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1456B03C1EEE99C500E4BFDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1456B03F1EEE99C500E4BFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1456B0411EEE99C500E4BFDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1456B0441EEE99C500E4BFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1456B0461EEE99C500E4BFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1456B04B1EEE99C500E4BFDF /* TANCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TANCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1456B04F1EEE99C500E4BFDF /* TANCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TANCalendarTests.m; sourceTree = "<group>"; };
+		1456B0511EEE99C500E4BFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1456B0561EEE99C500E4BFDF /* TANCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TANCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1456B05A1EEE99C500E4BFDF /* TANCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TANCalendarUITests.m; sourceTree = "<group>"; };
+		1456B05C1EEE99C500E4BFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1456B02F1EEE99C500E4BFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1456B0481EEE99C500E4BFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1456B0531EEE99C500E4BFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1456B0291EEE99C500E4BFDF = {
+			isa = PBXGroup;
+			children = (
+				1456B0341EEE99C500E4BFDF /* TANCalendar */,
+				1456B04E1EEE99C500E4BFDF /* TANCalendarTests */,
+				1456B0591EEE99C500E4BFDF /* TANCalendarUITests */,
+				1456B0331EEE99C500E4BFDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1456B0331EEE99C500E4BFDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1456B0321EEE99C500E4BFDF /* TANCalendar.app */,
+				1456B04B1EEE99C500E4BFDF /* TANCalendarTests.xctest */,
+				1456B0561EEE99C500E4BFDF /* TANCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1456B0341EEE99C500E4BFDF /* TANCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				1456B0381EEE99C500E4BFDF /* AppDelegate.h */,
+				1456B0391EEE99C500E4BFDF /* AppDelegate.m */,
+				1456B03B1EEE99C500E4BFDF /* ViewController.h */,
+				1456B03C1EEE99C500E4BFDF /* ViewController.m */,
+				1456B03E1EEE99C500E4BFDF /* Main.storyboard */,
+				1456B0411EEE99C500E4BFDF /* Assets.xcassets */,
+				1456B0431EEE99C500E4BFDF /* LaunchScreen.storyboard */,
+				1456B0461EEE99C500E4BFDF /* Info.plist */,
+				1456B0351EEE99C500E4BFDF /* Supporting Files */,
+			);
+			path = TANCalendar;
+			sourceTree = "<group>";
+		};
+		1456B0351EEE99C500E4BFDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1456B0361EEE99C500E4BFDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1456B04E1EEE99C500E4BFDF /* TANCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				1456B04F1EEE99C500E4BFDF /* TANCalendarTests.m */,
+				1456B0511EEE99C500E4BFDF /* Info.plist */,
+			);
+			path = TANCalendarTests;
+			sourceTree = "<group>";
+		};
+		1456B0591EEE99C500E4BFDF /* TANCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1456B05A1EEE99C500E4BFDF /* TANCalendarUITests.m */,
+				1456B05C1EEE99C500E4BFDF /* Info.plist */,
+			);
+			path = TANCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1456B0311EEE99C500E4BFDF /* TANCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1456B05F1EEE99C500E4BFDF /* Build configuration list for PBXNativeTarget "TANCalendar" */;
+			buildPhases = (
+				1456B02E1EEE99C500E4BFDF /* Sources */,
+				1456B02F1EEE99C500E4BFDF /* Frameworks */,
+				1456B0301EEE99C500E4BFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TANCalendar;
+			productName = TANCalendar;
+			productReference = 1456B0321EEE99C500E4BFDF /* TANCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1456B04A1EEE99C500E4BFDF /* TANCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1456B0621EEE99C500E4BFDF /* Build configuration list for PBXNativeTarget "TANCalendarTests" */;
+			buildPhases = (
+				1456B0471EEE99C500E4BFDF /* Sources */,
+				1456B0481EEE99C500E4BFDF /* Frameworks */,
+				1456B0491EEE99C500E4BFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1456B04D1EEE99C500E4BFDF /* PBXTargetDependency */,
+			);
+			name = TANCalendarTests;
+			productName = TANCalendarTests;
+			productReference = 1456B04B1EEE99C500E4BFDF /* TANCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1456B0551EEE99C500E4BFDF /* TANCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1456B0651EEE99C500E4BFDF /* Build configuration list for PBXNativeTarget "TANCalendarUITests" */;
+			buildPhases = (
+				1456B0521EEE99C500E4BFDF /* Sources */,
+				1456B0531EEE99C500E4BFDF /* Frameworks */,
+				1456B0541EEE99C500E4BFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1456B0581EEE99C500E4BFDF /* PBXTargetDependency */,
+			);
+			name = TANCalendarUITests;
+			productName = TANCalendarUITests;
+			productReference = 1456B0561EEE99C500E4BFDF /* TANCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1456B02A1EEE99C500E4BFDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = merrill;
+				TargetAttributes = {
+					1456B0311EEE99C500E4BFDF = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VKU2TSZ7H9;
+						ProvisioningStyle = Automatic;
+					};
+					1456B04A1EEE99C500E4BFDF = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VKU2TSZ7H9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1456B0311EEE99C500E4BFDF;
+					};
+					1456B0551EEE99C500E4BFDF = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VKU2TSZ7H9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1456B0311EEE99C500E4BFDF;
+					};
+				};
+			};
+			buildConfigurationList = 1456B02D1EEE99C500E4BFDF /* Build configuration list for PBXProject "TANCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1456B0291EEE99C500E4BFDF;
+			productRefGroup = 1456B0331EEE99C500E4BFDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1456B0311EEE99C500E4BFDF /* TANCalendar */,
+				1456B04A1EEE99C500E4BFDF /* TANCalendarTests */,
+				1456B0551EEE99C500E4BFDF /* TANCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1456B0301EEE99C500E4BFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1456B0451EEE99C500E4BFDF /* LaunchScreen.storyboard in Resources */,
+				1456B0421EEE99C500E4BFDF /* Assets.xcassets in Resources */,
+				1456B0401EEE99C500E4BFDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1456B0491EEE99C500E4BFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1456B0541EEE99C500E4BFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1456B02E1EEE99C500E4BFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1456B03D1EEE99C500E4BFDF /* ViewController.m in Sources */,
+				1456B03A1EEE99C500E4BFDF /* AppDelegate.m in Sources */,
+				1456B0371EEE99C500E4BFDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1456B0471EEE99C500E4BFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1456B0501EEE99C500E4BFDF /* TANCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1456B0521EEE99C500E4BFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1456B05B1EEE99C500E4BFDF /* TANCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1456B04D1EEE99C500E4BFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1456B0311EEE99C500E4BFDF /* TANCalendar */;
+			targetProxy = 1456B04C1EEE99C500E4BFDF /* PBXContainerItemProxy */;
+		};
+		1456B0581EEE99C500E4BFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1456B0311EEE99C500E4BFDF /* TANCalendar */;
+			targetProxy = 1456B0571EEE99C500E4BFDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1456B03E1EEE99C500E4BFDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1456B03F1EEE99C500E4BFDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1456B0431EEE99C500E4BFDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1456B0441EEE99C500E4BFDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1456B05D1EEE99C500E4BFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1456B05E1EEE99C500E4BFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1456B0601EEE99C500E4BFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TANCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TANCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1456B0611EEE99C500E4BFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TANCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TANCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1456B0631EEE99C500E4BFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TANCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TANCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TANCalendar.app/TANCalendar";
+			};
+			name = Debug;
+		};
+		1456B0641EEE99C500E4BFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TANCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TANCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TANCalendar.app/TANCalendar";
+			};
+			name = Release;
+		};
+		1456B0661EEE99C500E4BFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TANCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TANCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TANCalendar;
+			};
+			name = Debug;
+		};
+		1456B0671EEE99C500E4BFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VKU2TSZ7H9;
+				INFOPLIST_FILE = TANCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qibaibike.TANCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TANCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1456B02D1EEE99C500E4BFDF /* Build configuration list for PBXProject "TANCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1456B05D1EEE99C500E4BFDF /* Debug */,
+				1456B05E1EEE99C500E4BFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1456B05F1EEE99C500E4BFDF /* Build configuration list for PBXNativeTarget "TANCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1456B0601EEE99C500E4BFDF /* Debug */,
+				1456B0611EEE99C500E4BFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1456B0621EEE99C500E4BFDF /* Build configuration list for PBXNativeTarget "TANCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1456B0631EEE99C500E4BFDF /* Debug */,
+				1456B0641EEE99C500E4BFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1456B0651EEE99C500E4BFDF /* Build configuration list for PBXNativeTarget "TANCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1456B0661EEE99C500E4BFDF /* Debug */,
+				1456B0671EEE99C500E4BFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1456B02A1EEE99C500E4BFDF /* Project object */;
+}
