@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+            <meta name="viewport"
+                content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+                <script type="text/javascript">
+                    window.onload=function(){
+                        window.banana.setTitleBgColorTextColor('网页跳转测试', '#ee88ff', '#ffffff')
+                    }
+                </script>
+                </head>
+    <body>
+        <div id="content"> 香蕉打卡webview挑战本地</div>
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="参加了挑战"
+        onclick="banana.jumpToApp(JSON.stringify({type:0,type_id:15}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="拉起日历"
+        onclick="banana.jumpToApp(JSON.stringify({type:1}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="我的"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:13}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="地图"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:12}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="社交 - 精选"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:11, type_id:0}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="社交 - 关注"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:11, type_id:1}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="起床 - 闹钟设置"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:14}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="挑战详情 - id"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:10, type_id:14}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="个人主页 - userid"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:9, value:'ka1173'}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="皮肤馆 - tab0"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:7, type_id:0}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="皮肤馆 - tab1"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:7, type_id:1}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="皮肤馆 - tab2"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:7, type_id:2}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="皮肤馆 - tab3"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:7, type_id:3}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="跑步 - 设置界面"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:4}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="跑步 - 确定页"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:5}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="打卡 - 跑步"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:2,type_id:2,sub_type_id:2}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="打卡 - 骑行"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:2,sub_type_id:96}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="打卡 - 起床卡"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:2,type_id:3,sub_type_id:63}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="打卡 - 吃水果"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:2,type_id:3,sub_type_id:65}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="打卡 - 体重卡"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:2,type_id:3,sub_type_id:50}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="打卡 - 深蹲"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:2,type_id:3,sub_type_id:48}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="退出挑战"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:15,type_id:15}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="查看挑战皮肤详情页"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:3,type_id:1}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="打卡界面 - 最爱"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:16}))"/>
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="排行榜 - tab_0 - sub_tab_0"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:8,type_id:0,sub_type_id:0}))"/>
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="排行榜 - tab_0 - sub_tab_1"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:8,type_id:0,sub_type_id:1}))"/>
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="排行榜 - tab_0 - sub_tab_2"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:8,type_id:0,sub_type_id:2}))"/>
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="排行榜 - tab_1 - sub_tab_0"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:8,type_id:1,sub_type_id:0}))"/>
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="排行榜 - tab_1 - sub_tab_1"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:8,type_id:1,sub_type_id:1}))"/>
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="排行榜 - tab_1 - sub_tab_2"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:8,type_id:1,sub_type_id:2}))"/>
+        
+        <!--2.16.0扩充-->
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="训练卡介绍页（带卡片id）"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:17,type_id:3,sub_type_id:80}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="go选择tap0"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:18,type_id:0}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="go选择tap1"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:18,type_id:1}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="go选择tap2"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:18,type_id:2}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="go选择tap3"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:18,type_id:3}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="go选择tap4"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:18,type_id:4}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="go选择tap5"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:18,type_id:5}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="每周统计曲线0"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:19,type_id:0}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="每周统计曲线1"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:19,type_id:1}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="每周统计曲线2"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:19,type_id:2}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="每周统计曲线3"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:19,type_id:3}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="消息中心:赞了"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:20,type_id:0}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="消息中心：评论"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:20,type_id:1}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="消息中心：用户中心"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:20,type_id:2}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="个人资料"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:21}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="个人挑战管理页"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:22}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="跑步记录"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:23}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="好友管理"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:24}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="个人运动时间线"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:25}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="动态详情"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:6,type_id:658088}))"/>
+        
+        <!--  2.16.0 end     -->
+        
+        <!-- 2.17 -->
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="卡片详情页: 默认"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:26,type_id:96,sub_type_id:0}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="卡片详情页: 动态"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:26,type_id:2,sub_type_id:1}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="卡片详情页:回顾 "
+        onclick="window.banana.jumpToApp(JSON.stringify({type:26,type_id:2,sub_type_id:2}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="所有挑战列表 "
+        onclick="window.banana.jumpToApp(JSON.stringify({type:27}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="文章列表"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:28,type_id:1}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="文章详情"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:29,type_id:2}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="发现"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:30}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="退出界面"
+        onclick="window.banana.exit()"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="打卡 - 训练"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:2,type_id:7,sub_type_id:80}))"/>
+        <!-- 2.17 end -->
+        
+        <!-- 2.18 -->
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="有赞商铺"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:31,value:'https://h5.youzan.com/v2/feature/ivxlxacc'}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="我的购买列表：挑战id"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:34,type_id:24}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="统计"
+        onclick="window.banana.logViaApp(JSON.stringify({code:'2005',data:'14||24'}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="跳转商品详情"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:32,type_id:1,sub_type_id:22}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="跳转商品详情,弹出购买窗"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:33,type_id:1,sub_type_id:22}))"/>
+        
+        <!-- 2.18 end -->
+        
+        <!—- 2.20 -->
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="收货地址界面"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:35}))"/>
+        
+        <!-- 2.20 end -->
+        
+        
+        <!-- 2.21 -->
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="积分兑换商城"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:36}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="积分墙"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:37}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="兑换记录列表"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:38}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="积分商品详情页"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:39,type_id:1}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="蕉币不足"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:40}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="提醒设置页面"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:41,type_id:4}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="体重秤介绍&连接"
+        onclick="window.banana.jumpToApp(JSON.stringify({type:42}))"/>
+        
+        <input type="button" style="margin-top: 10px; margin-bottom:10px" value="下载app"
+        onclick="window.banana.downloadApp(JSON.stringify({dailyOpen:0,daysLimit:0,downSize:19.0,id:0,imageUrl:'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u\u003d1241863911,4071755513\u0026fm\u003d11\u0026gp\u003d0.jpg',openPoint:0,packageName:'com.tencent.mm',point:200,redirectType:2,redirectUrl:'http://p.gdown.baidu.com/48fb5c90fe4c7c29a336791b27153c2f8778fce048d32f291227ca6230df4c252d4657ee68912798c1250aa4f4faf971a0fdc66fa8a5357b86ba3084752a085fbec0fa72629015124812e6cad4818969d52d64f21b584c86d62e839f0f9b6a8a1d45cd76f3446d470d2fe22afc955dc13e738832ad13c9c8',subTitle:'下载微信咔咔咔咔咔咔哈哈哈哈哈哈哈哈哈啊哈哈',taskDes:'1、下载app下载app下载app下载app\n2、安装app',taskType:0,templateType:2,title:'微信'}))"/>
+        <!-- 2.21 end -->
+    </body>
+</html>
